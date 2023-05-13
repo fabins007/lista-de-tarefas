@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/controle.js"></script>
     <title>lista de tarefas</title>
 </head>
+
 <body>
     <h1> Lista de Tarefas</h1>
 
 
-    <header> 
+    <header>
 
         <input id="inputTarefa" type="text" placeholder="Digite sua tarefa">
-        <button onclick="addTarefa()" id="btn-add" class="add" >Adicionar</button>
+        <button onclick="addTarefa()" id="btn-add" class="add">Adicionar</button>
 
     </header>
 
-    <main id="areaLista"> 
-        <div class="item ">
-            <div class="item-icone "> <img src="./css/dry-clean.png" width="13%" alt="icone"></div>
-
-            <div class="item-nome "> Teste de Tarefas</div>
-
-            <div class="item-botao">
-                <button class="delete"> Delete <img src="./css/botao-apagar (1).png" width= "15% " ></button>
+    <main id="areaLista">
+        <div class="item">
+            <div class="item-icone">
+                <!-- <img src="./css/dry-clean.png" width="13%" alt="icone"> -->
             </div>
 
-            <div class="item clicado ">
-                <div class="item-icone "> <img src="./css/verificado.png" width="13%" alt="icone"></div>
-    
-                <div class="item-nome "> Teste de Tarefas</div>
-    
-                <div class="item-botao">
-                    <button class="delete"> Delete <img src="./css/botao-apagar (1).png" width= "15% " ></button>
-                </div>
+            <div class="item-nome"> Teste de Tarefas</div>
 
+            <div class="item-botao">
+                <button class="delete"> Delete 
+                    <!-- <img src="./css/botao-apagar (1).png" width="15% "> -->
+                </button>
+            </div>
+        </div>
+        <div class="item clicado">
+            <div class="item-icone"> 
+                <!-- <img src="./css/verificado.png" width="13%" alt="icone"> -->
+            </div>
 
+            <div class="item-nome">Teste de Tarefas</div>
+
+            <div class="item-botao">
+                <button class="delete"> Delete 
+                    <!-- <img src="./css/botao-apagar (1).png" width="15% "> -->
+                </button>
+            </div>
         </div>
 
-
     </main>
-    
-
-    <script type="text/javascript" src="js/controle.js"></script>
 </body>
+
 </html>
